@@ -1,0 +1,94 @@
+body {
+    text-align: center;
+    background-image: url("https://i.imgur.com/CXu1ujQ.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Rammetto One', cursive;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+tr {
+    height: 25px;
+}
+
+td {
+    width: 25px;
+}
+
+input[type=number] {
+    height: 30px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    padding: 0 8px;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    cursor: pointer;
+    display: block;
+    width: 8px;
+    color: #333;
+    text-align: center;
+    position: relative;
+}
+
+input[type=number]:hover::-webkit-inner-spin-button {
+    background: #eee url('http://i.stack.imgur.com/YYySO.png') no-repeat 50% 50%;
+    width: 10px;
+    height: 14px;
+    padding: 2px;
+    position: relative;
+    right: 1px;
+    border-radius: 28px;
+}
+
+input[type=submit] {
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 15px;
+    background: #ccc;
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    border-radius: 2px;
+}
+
+#sizePicker {
+    font-family: 'Poppins', sans-serif;
+}
+
+input[type=color] {
+    padding: 4px;
+    background: #ccc;
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 12px;
+    border-radius: 2px;
+}
